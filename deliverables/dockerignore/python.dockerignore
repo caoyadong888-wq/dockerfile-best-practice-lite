@@ -1,0 +1,16 @@
+# Copy this file to the build context root as .dockerignore
+# 把本文件复制到构建上下文根目录，并命名为 .dockerignore
+# Check upstream docs for the .dockerignore pattern syntax before you add negations.
+# 添加反向规则之前，请核对 .dockerignore 的模式语法。
+
+.git
+.gitignore
+**/__pycache__
+**/*.pyc
+**/.venv
+**/venv
+**/.env
+**/*.md
+**/tests
+Dockerfile*
+*.Dockerfile

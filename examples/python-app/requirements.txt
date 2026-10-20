@@ -1,0 +1,4 @@
+# No third-party packages. The sample uses the Python standard library.
+# 没有第三方包。示例只用 Python 标准库。
+# When you add a package, pin it here. Check upstream docs for the version.
+# 添加包时在这里写上固定版本。版本请核对上游文档。
